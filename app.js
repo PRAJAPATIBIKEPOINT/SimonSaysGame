@@ -4,7 +4,8 @@ let h2 = document.querySelector("h2");
 let level = 0;
 let gameSeq = [];
 let userSeq = [];
-document.addEventListener("keypress" , function(){
+ let startBtn = document.querySelector("button");
+startBtn.addEventListener("click" , function(){
     levelUp();
 })
 
